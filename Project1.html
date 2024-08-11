@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./fonts/vazir.css">
+    <link rel="stylesheet" href="./Project1.css">
+</head>
+<body>
+    <div class="contianer">
+        <form class="form" action="#">
+            <h2 class="form-title">Contact Us</h2>
+
+            <label for="name" class="n1">First Name</label>
+            <input type="text" name="name" id="name" class="text" required>
+            <label for="last_name" class="n1">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text" required>
+            <br>
+            
+            <label for="email" class="name">ٍEmail Address</label>
+            <input type="email" name="email" id="email" class="text" required>
+            <br>
+
+            <label for="query" class="name">Query Type</label>
+
+            <label for="r1" class="text1">General Enquiry
+            <input type="radio" name="rules" id="r1" class="rad">
+            </label>
+            <label for="r2" class="text1">Support Request
+            <input type="radio" name="rules" id="r2" class="rad">
+            </label>
+            
+
+            <label for="sms" class="sms">Message
+                <input type="text" name="sms" id="sms" class="message">
+            </label>
+            <label for="check" class="check">I consent to being contacted by the team
+                <input type="checkbox" name="check" id="check" required>
+            </label>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
